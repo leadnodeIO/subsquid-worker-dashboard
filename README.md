@@ -14,8 +14,14 @@ Subsquid Worker and Node Metrics Dashboard. A community-created dashboard for mo
 - node-exporter (default port 9100) : Install node-exporter on the machine being monitored to collect hardware and OS metrics (Docker recommended). [https://github.com/prometheus/node_exporter](https://github.com/prometheus/node_exporter)
 - subsquid-worker (default port 9090) : Metrics exported by default.
 
-# Notes:
+# Installation
+- Go to Grafana -> Dashboards -> Import
+- Use the ID: 20152 
+  - [https://grafana.com/grafana/dashboards/20152-subsquid-worker-dashboard/](https://grafana.com/grafana/dashboards/20152-subsquid-worker-dashboard/)
+- Or use the JSON file in this repo
+- Select your Prometheus data source and Alertmanager if needed
 
+# Notes:
 This initial version will undergo enhancements progressively, such as alerts, better metrics ...
 
 If you're managing more than one worker/server, you can select the job at the top left.
